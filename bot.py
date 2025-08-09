@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Привет! Я FotiniaBot.")
+    await update.message.reply_text("Привет! Я Фотиния, твой помощник")
 
 def main():
     token = os.environ.get("TELEGRAM_TOKEN")
